@@ -128,7 +128,7 @@ POST /repos/:owner/:repo/issues
 curl -i -H 'Authorization: token ba89586c2af27b18c180f4fb346bbba838532395' -d '{ "title": "New logo", "body": "We should have one", "labels": ["design"]}' https://api.github.com/repos/ayogi/import-github-issues/issues
 #+end_example
 
-- Paraemters ::
+- Parameters ::
 |-----------+-----------------+----------------------------------------------------------------|
 | *Name     | Type            | Description*                                                   |
 |-----------+-----------------+----------------------------------------------------------------|
